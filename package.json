@@ -8,6 +8,11 @@
     "type": "git",
     "url": "https://github.com/eMatsu98/dark-cake.git"
   },
+  "icon": "icons/dark-cake-icon.png",
+  "author": {
+    "name": "Emilio (Pino) Orozco",
+    "email": "orozco.emilio@hotmail.com"
+  },
   "keywords": [
     "theme",
     "dark theme",
