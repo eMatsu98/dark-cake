@@ -1,0 +1,35 @@
+{
+  "name": "dark-cake",
+  "displayName": "Dark Cake Theme",
+  "description": "A dark theme with a lot of colors in the text to easily identify your code",
+  "version": "0.0.1",
+  "publisher": "eMatsu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eMatsu98/dark-cake.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "eMatsu",
+    "cake theme",
+    "dark cake theme",
+    "ematsu",
+    "pastel theme"
+  ],
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Cake Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Cake Theme-color-theme.json"
+      }
+    ]
+  }
+}
