@@ -15,14 +15,22 @@
 		"list.activeSelectionForeground": "#ff0055",
 		"list.focusForeground": "#ff0055",
 		"editorGutter.addedBackground": "#ff0055",
-		"editorOverviewRuler.addedForeground": "#ff0055",
-		"editorBracketMatch.border": "#ff0055",
+		"editorOverviewRuler.addedForeground": "#da3a6f",
+		"editorBracketMatch.border": "#da3a6f",
 		"list.inactiveSelectionForeground": "#ff0055",
 		"terminal.ansiBrightGreen": "#ff0055",
 		"terminal.ansiGreen": "#ff0055",
 
 		"tab.activeBorder": "#ff0055",
 		"tab.activeBorderTop": "#ff0055",
+
+		"terminal.foreground": "#cacaca",
+		"terminal.background": "#1e1e1e",
+		"terminal.selectionForeground": "#ffffff",
+		"terminalCursor.foreground": "#da3a6f",
+		"terminal.ansiCyan": "#e69efc",
+		"terminal.ansiBrightYellow": "#da3a6f",
+		"terminal.ansiYellow": "#FFB86C",
 
 		"tab.hoverBackground": "#525252",
 		"tab.hoverBorder": "#000000",
@@ -136,6 +144,21 @@
 			],
 			"settings": {
 				"foreground": "#faffe6"
+			}
+		},
+		{
+			"name": "punctuation definition bold markdown",
+			"scope": [
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.link.title.begin.markdown",
+				"punctuation.definition.link.title.end.markdown",
+				"punctuation.definition.metadata.markdown",
+				"punctuation.definition.link.markdown",
+				"punctuation.definition.list.begin.markdown",
+				"punctuation.definition.list.end.markdown"
+			],
+			"settings": {
+				"foreground": "#ff5b89"
 			}
 		},
 		{
@@ -594,7 +617,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF84C8"
+				"foreground": "#FF8400"
 			}
 		},
 		{
@@ -603,7 +626,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF84AF"
+				"foreground": "#FF8419"
 			}
 		},
 		{
@@ -612,7 +635,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF8496"
+				"foreground": "#FF8432"
 			}
 		},
 		{
@@ -621,7 +644,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF847D"
+				"foreground": "#FF844B"
 			}
 		},
 		{
@@ -639,7 +662,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF844B"
+				"foreground": "#FF847D"
 			}
 		},
 		{
@@ -648,7 +671,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF8432"
+				"foreground": "#FF8496"
 			}
 		},
 		{
@@ -657,7 +680,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF8419"
+				"foreground": "#FF84AF"
 			}
 		},
 		{
@@ -666,7 +689,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF8400"
+				"foreground": "#FF84C8"
 			}
 		},
 		{
@@ -676,7 +699,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#d8d8d8"
 			}
 		},
 		{
@@ -705,7 +728,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#ff0055"
 			}
 		},
 		{
@@ -726,7 +749,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#ff0000"
+				"foreground": "#ff88aa"
 			}
 		},
 		{
@@ -737,11 +760,11 @@
 				"markup.quote markup.bold",
 				"markup.bold markup.italic string",
 				"markup.italic markup.bold string",
-				"markup.quote markup.bold string"
+				"markup.quote markup.bold string",
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#ff0000"
+				"foreground": "#ff88aa"
 			}
 		},
 		{
@@ -751,7 +774,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#ff0000"
+				"foreground": "#7b84ff"
 			}
 		},
 		{
@@ -778,7 +801,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#ff88aa"
 			}
 		},
 		{
@@ -805,7 +828,7 @@
 				"markup.raw.block"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
